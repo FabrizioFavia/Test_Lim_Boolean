@@ -1,0 +1,95 @@
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 991px){
+  .containerBox-margin{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .containerBox-margin{
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+.containerBox{
+  background-color: #0000008a;
+  margin-top: 50px;
+  margin-bottom: 250px;
+  padding: 50px;
+  border-radius: 15px;
+
+}
+.box{
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 20px;
+}
+
+.titolo{
+  font-family: 'Questrial' , sans-serif;
+  color: #39ef14;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.menu{
+  background-color: #39ef14;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+ .elementBox > h2{
+  color: white;
+  display: inline-block;
+  font-family: 'Questrial' , sans-serif;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+ .textBox{
+  color: white;
+  font-family: 'Questrial' , sans-serif;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.caricaLow , .caricaMedium , .caricaHigh{
+  border-radius: 5px;
+  padding: 14px;
+}
+
+.caricaMedium{
+  background-color: #e0ad31;
+  width: 40%;
+}
+
+.caricaHigh{
+  background-color:#28b20c ;
+  width: 60%;
+}
+
+.caricaLow{
+  background-color:#c1471b;
+  width: 20%;
+}
+
+.elementBox{
+  margin-top: 30px;
+}
